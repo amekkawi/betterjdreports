@@ -1,0 +1,249 @@
+@CHARSET "UTF-8";
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #343434;
+	background-image: url(../images/background.gif);
+	background-repeat: repeat-x;
+}
+body, .normalfont {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #222;
+	font-size: 13px;
+	font-weight: normal;
+}
+label {
+	cursor: pointer;
+}
+form {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #00F;
+}
+a.showvisted:visited {
+	color: #551A8B;
+}
+.divcenter {
+	float: right;
+	left: -50%;
+	position: relative;
+	text-align: left;
+}
+.divcenter-inner {
+	left: 50%;
+	position: relative;
+}
+#Wrapper {
+	margin: 12px 16px;
+}
+#Header {
+	/*width: 960px;*/
+	margin: 0 auto;
+}
+#TitleBlock {
+	position: relative;
+}
+#Title a {
+	display: block;
+	height: 65px;
+	background-image: url(../images/title.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-decoration: none;
+}
+#Title a span {
+	position: relative;
+	top: -10000px;
+}
+#UserInfo {
+	text-align: right;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	color: #FFF;
+}
+#UserInfo a {
+	color: #CCF;
+}
+#UserInfo-UserID {
+	font-size: 14px;
+}
+#Navi {
+	background-image: url(../images/background-navi2.gif);
+	background-repeat: repeat-y;
+	overflow: hidden;
+	border-left: 1px solid #832105;
+	border-right: 1px solid #5c1400;
+}
+#NaviInner {
+	padding-top: 1px;
+	background-image: url(../images/background-navi2-top.gif);
+	/*background-repeat: repeat-x;*/
+	background-position: center top;
+	border-bottom: 1px solid #5c1400;
+}
+#NaviCenter {
+	float: right;
+	position: relative;
+	left: -50%;
+	text-align: left;
+}
+#Navi ul, #Navi ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#Navi ul {
+	position: relative;
+	left: 50%;
+	padding-top: 6px;
+}
+#Navi li {
+	float:left;
+	position:relative;
+}
+#Navi ul a {
+	display: block;
+	float: left;
+	position: relative;
+	top: 1px;
+	margin-left: 8px;
+	padding: 4px 8px;
+	background-color: #b9b6a5;
+	background-image: url(../images/background-navi-item.gif);
+	background-repeat: repeat-x;
+	color: #5a5842;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	white-space: nowrap;
+	text-align:center;
+	border-bottom: 1px solid #918e81;
+}
+#Navi ul li.selected a {
+	background-color: #f7f6f0;
+	background-image: none;
+	border-bottom-color: #f7f6f0;
+}
+#Content {
+	/*width: 936px;*/
+	margin: 0 auto;
+	
+	clear: both;
+	background-color: #f7f6f0;
+	padding: 12px;
+}
+h1, h2, h3, h4, p {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	padding: 8px 12px;
+	margin-bottom: 12px;
+	border-bottom: 1px solid #b6b6b6;
+	font-size: 34px;
+	color: #5a5842;
+	font-weight: normal;
+	background-image: url(../images/background-h1.gif);
+	background-repeat: repeat-y;
+	text-align: center;
+}
+h2 {
+	margin: 12px 0;
+}
+.styledtable {
+	border: 1px solid #b5aa88;
+	border-spacing: 1px;
+}
+.styledtable th, .styledtable td {
+	border: 0 none #000;
+}
+.styledtable th {
+	background-image: url(../images/background-table-th.gif);
+	background-position: center center;
+	background-repeat: repeat-x;
+	background-color: #721900;
+	color: #FFF;
+}
+.styledtable th a {
+	color: #FFF;
+}
+.styledtable tbody th {
+	text-align: right;
+}
+.styledtable tbody tr.odd td {
+	background-color: #edead9;
+}
+
+.pagertop {
+	background-image: url(../images/pager-top-bg.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	margin-bottom: 8px;
+	border-top: 1px solid #a0965b;
+}
+
+.pagerbottom {
+	background-image: url(../images/pager-bottom-bg.png);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	margin-top: 8px;
+	border-bottom: 1px solid #a0965b;
+}
+
+.pager td {
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+.pager a {
+	color: #0000FF;
+}
+.pager a:hover {
+	background-color: #0000FF;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.pager a, .pager span, .pager b {
+	display: block;
+	font-size: 14px;
+	padding: 4px 6px;
+}
+
+div.searchlink {
+	padding-left: 22px;
+	position: relative;
+}
+a.searchlink {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.helptext {
+	color: #666;
+	font-style: italic;
+}
+
+.styledtablex tbody tr.even.errorrow td {
+	background-color: #f5dfda;
+}
+.styledtablex tbody tr.odd.errorrow td {
+	background-color: #edc7bf;
+}
+.errormsg {
+	color: #700;
+}
+
+.norecords {
+	background-color: #ede8cb;
+	border: 1px solid #c0b88b;
+	background-image: url(../images/info32x32.png);
+	background-repeat: no-repeat;
+	background-position: 8px center;
+}
+.norecords td {
+	padding: 14px;
+	padding-left: 48px;
+}
